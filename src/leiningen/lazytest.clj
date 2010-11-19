@@ -1,11 +1,12 @@
 (ns leiningen.lazytest
   (:use [leiningen.compile :only [eval-in-project]]))
 
-(defn lazytest [project]
+
+(defn lazytest "Runs lazytest watch on paths supplied in :lazytest-path [\"src\" \"test\"]"  [project]
   (eval-in-project
    project      
    `(do        
       (require 'lazytest.watch)       
-      (System/exit (lazytest.watch/start ["src" "test/unit"])))))
+      (lazytest.watch/start ~(:lazytest-path project)))))
 
 

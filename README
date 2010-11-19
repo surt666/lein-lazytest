@@ -1,17 +1,15 @@
 # lein-lazytest
 
-FIXME: write description
-
+Leiningen plugins for lazytest
 ## Usage
+in projcect.clj 
 
-FIXME: write
+define :lazytest-path ["src" "test"]
 
-## Installation
-
-FIXME: write
+lein lazytest
 
 ## License
 
-Copyright (C) 2010 FIXME
+Copyright (C) 2010 
 
 Distributed under the Eclipse Public License, the same as Clojure.
