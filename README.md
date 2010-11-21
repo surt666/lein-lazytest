@@ -1,6 +1,13 @@
 # lein-lazytest
 
 Leiningen plugin for lazytest
+## Installation 
+in project.clj under dev dependencies add 
+
+[lein-lazytest "1.0.1"]
+
+The jar i located at clojars.org
+
 ## Usage
 in projcect.clj 
 
