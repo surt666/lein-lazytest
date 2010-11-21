@@ -1,6 +1,6 @@
 # lein-lazytest
 
-Leiningen plugins for lazytest
+Leiningen plugin for lazytest
 ## Usage
 in projcect.clj 
 
