@@ -2,5 +2,5 @@
   :description "FIXME: write"
   :dependencies [[org.clojure/clojure "1.2.0"]
                  [org.clojure/clojure-contrib "1.2.0"]]
-  :dev-dependencies [[com.stuartsierra/lazytest "1.1.2"]]
+  :dev-dependencies [[lein-clojars "0.6.0"] [com.stuartsierra/lazytest "1.1.2"]]
   :eval-in-leiningen true)
