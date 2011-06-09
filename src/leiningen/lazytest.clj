@@ -7,6 +7,6 @@
    project      
    `(do        
       (require 'lazytest.watch)       
-      (lazytest.watch/start ~(:lazytest-path project)))))
+      (lazytest.watch/start ~(get project :lazytest-path ["src" "test"])))))
 
 
